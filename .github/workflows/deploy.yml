@@ -35,9 +35,9 @@ jobs:
     - name: Deploy to Elastic Beanstalk
       uses: einaregilsson/beanstalk-deploy@v21
       with:
-        aws_access_key: ${{ secrets::AWS_ACCESS_KEY_ID }}
-        aws_secret_key: ${{ secrets::AWS_SECRET_ACCESS_KEY }}
-        application_name: losownik-obiadow
+        aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        application_name: losowanie-obiadow
         environment_name: Losowanie-obiadow-env
         version_label: "deploy-${{ github.sha }}"
         region: eu-north-1
