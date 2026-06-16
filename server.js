@@ -108,7 +108,7 @@ app.get('/', (req, res) => {
     </head>
     <body>
         <div class="container">
-            <h1>Co na obiad? 🍽️</h1>
+            <h1>TEST CI: Co na obiad? 🍽️</h1>
             <p class="subtitle">Nie wiesz co ugotować? Wylosuj jedno z 50 dań!</p>
             
             <div class="result-box">
